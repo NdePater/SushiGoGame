@@ -1,18 +1,9 @@
 class Player:
     #the player is a class
     def __init__(self, player_id):#, strategy):
-        self.new_hand = []
-        self.old_hand = []
-        self.played_cards = []
+        self.hand = []
+        self.open_cards = []
         self.id = player_id
-        
-        self.totalPoints = 0
-        self.winCount = 0
-        self.wasabi = False
-        self.pudding = 0
-        self.makis = 0
-        self.colour_count = 0
-        # self.strategy = strategy
 
     #A player draws a card from the deck
     def addCard(self, card):

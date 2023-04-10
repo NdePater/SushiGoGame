@@ -1,5 +1,6 @@
 import os
 import neat
+from SushiGoGame import SushiGoGame
 
 def eval_genomes(genomes, config):
     
